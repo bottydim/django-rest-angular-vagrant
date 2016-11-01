@@ -1,0 +1,27 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'run', 'lite' ]
+2 info using npm@3.10.8
+3 info using node@v7.0.0
+4 verbose run-script [ 'prelite', 'lite', 'postlite' ]
+5 info lifecycle angular2-djangocon-2016@1.0.0~prelite: angular2-djangocon-2016@1.0.0
+6 silly lifecycle angular2-djangocon-2016@1.0.0~prelite: no script for prelite, continuing
+7 info lifecycle angular2-djangocon-2016@1.0.0~lite: angular2-djangocon-2016@1.0.0
+8 verbose lifecycle angular2-djangocon-2016@1.0.0~lite: unsafe-perm in lifecycle true
+9 verbose lifecycle angular2-djangocon-2016@1.0.0~lite: PATH: /usr/lib/node_modules/npm/bin/node-gyp-bin:/vagrant/angular2/node_modules/.bin:/usr/lib/node_modules/npm/bin/node-gyp-bin:/vagrant/angular2/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin:/snap/bin
+10 verbose lifecycle angular2-djangocon-2016@1.0.0~lite: CWD: /vagrant/angular2
+11 silly lifecycle angular2-djangocon-2016@1.0.0~lite: Args: [ '-c', 'lite-server' ]
+12 verbose stack Error: write EPIPE
+12 verbose stack     at exports._errnoException (util.js:1026:11)
+12 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:804:14)
+13 verbose cwd /vagrant/angular2
+14 error Linux 4.4.0-45-generic
+15 error argv "/usr/bin/nodejs" "/usr/bin/npm" "run" "lite"
+16 error node v7.0.0
+17 error npm  v3.10.8
+18 error code EPIPE
+19 error errno EPIPE
+20 error syscall write
+21 error write EPIPE
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
