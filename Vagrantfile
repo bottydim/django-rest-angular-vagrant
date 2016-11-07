@@ -38,7 +38,6 @@ Vagrant.configure(2) do |config|
     #         mount_options: ["dmode=777", "fmode=777"]
     # end
 
-
     config.vm.provider "virtualbox" do |vb|
         vb.gui = false
         vb.memory = "1024"
