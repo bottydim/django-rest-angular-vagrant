@@ -9,7 +9,7 @@ class CategoryList(generics.ListAPIView):
     serializer_class = CategorySerializer
 
 
-class CategoryDetail(generics.RetrieveDestroyAPIView):
+class CategoryDetails(generics.RetrieveDestroyAPIView):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
     lookup_fields = ('id',)

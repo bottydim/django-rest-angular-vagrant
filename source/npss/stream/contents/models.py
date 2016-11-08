@@ -1,6 +1,5 @@
 from django.db import models
 
-from stream.comments.models import Comment
 from stream.users.models import User
 
 
@@ -11,7 +10,6 @@ class Content(models.Model):
     created_on = models.DateTimeField(auto_now_add=True)
     owner = models.ForeignKey(User)
     deleted_on = models.DateTimeField(auto_now_add=True)
-    comment = models.ForeignKey(Comment)
 
     class Meta:
         abstract = True

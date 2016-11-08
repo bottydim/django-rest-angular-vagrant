@@ -19,5 +19,5 @@ from stream.roles import views
 
 urlpatterns = [
     url(r'^list/', views.RoleList.as_view(), name='roles_list'),
-    url(r'^details/(?P<pk>[0-9]+)$', views.RoleDetail.as_view(), name='roles_detail'),
+    url(r'^details/(?P<pk>[0-9]+)$', views.RoleDetails.as_view(), name='roles_detail'),
 ]

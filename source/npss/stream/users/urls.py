@@ -20,7 +20,7 @@ from stream.users import views
 
 urlpatterns = [
     url(r'^list/', views.UserList.as_view(), name='users_list'),
-    url(r'^details/(?P<pk>[0-9]+)$', views.UserDetail.as_view(), name='users_detail'),
+    url(r'^details/(?P<pk>[0-9]+)$', views.UserDetails.as_view(), name='users_detail'),
 ]
 
 admin.autodiscover()

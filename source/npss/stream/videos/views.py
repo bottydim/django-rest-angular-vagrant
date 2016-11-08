@@ -9,7 +9,7 @@ class VideoList(generics.ListAPIView):
     serializer_class = VideoSerializer
 
 
-class VideoDetail(generics.RetrieveDestroyAPIView):
+class VideoDetails(generics.RetrieveDestroyAPIView):
     queryset = Video.objects.all()
     serializer_class = VideoSerializer
     lookup_fields = ('id',)

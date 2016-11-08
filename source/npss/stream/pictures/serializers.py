@@ -10,5 +10,5 @@ class PictureSerializer(serializers.ModelSerializer):
                   'created_on',
                   'owner',
                   'deleted_on',
-                  'comment')
+                  'article')
         read_only_fields = ('id',)

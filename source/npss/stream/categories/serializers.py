@@ -6,5 +6,5 @@ from stream.categories.models import Category
 class CategorySerializer(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ('id', 'title', 'description', 'owner')
+        fields = ('id', 'title', 'description', 'owner', 'article')
         read_only_fields = ('id',)

@@ -9,7 +9,7 @@ class PictureList(generics.ListAPIView):
     serializer_class = PictureSerializer
 
 
-class PictureDetail(generics.RetrieveDestroyAPIView):
+class PictureDetails(generics.RetrieveDestroyAPIView):
     queryset = Picture.objects.all()
     serializer_class = PictureSerializer
     lookup_fields = ('id',)

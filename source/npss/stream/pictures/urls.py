@@ -19,5 +19,5 @@ from stream.pictures import views
 
 urlpatterns = [
     url(r'^list/', views.PictureList.as_view(), name='pictures_list'),
-    url(r'^details/(?P<pk>[0-9]+)$', views.PictureDetail.as_view(), name='pictures_detail'),
+    url(r'^details/(?P<pk>[0-9]+)$', views.PictureDetails.as_view(), name='pictures_detail'),
 ]

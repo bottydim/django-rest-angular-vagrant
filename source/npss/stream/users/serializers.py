@@ -14,6 +14,5 @@ class UserSerializer(serializers.ModelSerializer):
                   'last_name',
                   'data_joined',
                   'last_login',
-                  'last_login_ip',
-                  'role')
+                  'last_login_ip')
         read_only_fields = ('id',)

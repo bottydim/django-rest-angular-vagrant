@@ -20,5 +20,5 @@ from stream.comments import views
 
 urlpatterns = [
     url(r'^list/', views.CommentList.as_view(), name='comments_list'),
-    url(r'^details/(?P<pk>[0-9]+)$', views.CommentDetail.as_view(), name='comments_detail'),
+    url(r'^details/(?P<pk>[0-9]+)$', views.CommentDetails.as_view(), name='comments_detail'),
 ]

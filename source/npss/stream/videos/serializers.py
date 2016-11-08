@@ -13,6 +13,5 @@ class VideoSerializer(serializers.ModelSerializer):
                   'created_on',
                   'owner',
                   'deleted_on',
-                  'comment',
                   'category')
         read_only_fields = ('id',)

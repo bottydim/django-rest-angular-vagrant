@@ -12,6 +12,5 @@ class TopicSerializer(serializers.ModelSerializer):
                   'views_count',
                   'created_on',
                   'owner',
-                  'deleted_on',
-                  'comment')
+                  'deleted_on')
         read_only_fields = ('id',)

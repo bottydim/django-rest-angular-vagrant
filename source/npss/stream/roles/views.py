@@ -9,7 +9,7 @@ class RoleList(generics.ListAPIView):
     serializer_class = RoleSerializer
 
 
-class RoleDetail(generics.RetrieveDestroyAPIView):
+class RoleDetails(generics.RetrieveDestroyAPIView):
     queryset = Role.objects.all()
     serializer_class = RoleSerializer
     lookup_fields = ('id',)

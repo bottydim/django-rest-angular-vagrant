@@ -9,7 +9,7 @@ class ArticleList(generics.ListAPIView):
     serializer_class = ArticleSerializer
 
 
-class ArticleDetail(generics.RetrieveDestroyAPIView):
+class ArticleDetails(generics.RetrieveDestroyAPIView):
     queryset = Article.objects.all()
     serializer_class = ArticleSerializer
     lookup_fields = ('id',)

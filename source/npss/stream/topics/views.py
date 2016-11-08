@@ -9,7 +9,7 @@ class TopicList(generics.ListAPIView):
     serializer_class = TopicSerializer
 
 
-class TopicDetail(generics.RetrieveDestroyAPIView):
+class TopicDetails(generics.RetrieveDestroyAPIView):
     queryset = Topic.objects.all()
     serializer_class = TopicSerializer
     lookup_fields = ('id',)
