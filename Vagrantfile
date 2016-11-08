@@ -51,6 +51,6 @@ Vagrant.configure(2) do |config|
     # provision_script = "chmod +x #{provision_script_path}; #{provision_script_path} #{default_dir_after_ssh}"
     config.vm.provision :shell, :path => provision_script_path
     config.vm.provision :shell, :path => python_set_up_path
-    # config.vm.provision "file", source: "~/.gitconfig", destination: "/home/vagrant/.gitconfig", run:"always"
+    
 
 end
