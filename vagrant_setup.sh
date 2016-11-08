@@ -25,6 +25,34 @@ sudo apt-get install -y build-essential
 echo "install NPM"
 # sudo apt-get -y install npm
 
+###############################################
+# Setup PostgreSQL
+###############################################
+sudo apt-get update
+sudo apt-get -y install python-pip python-dev libpq-dev postgresql postgresql-contrib python-psycopg2 python3-psycopg2
+sudo apt-get update
+sudo apt-get -y upgrade
+
+### Upgrade PIP
+sudo pip install --upgrade pip
+
+## Install Django PIP
+sudo pip install django psycopg2
+
+## Upgrade Django
+sudo pip install --upgrade django
+
+## Upgrade Psycopg2
+sudo pip install --upgrade psycopg2
+
+## Install Rest_framework PIP
+sudo pip install djangorestframework
+
+sudo apt-get -y install libpq-dev python3-dev
+sudo apt-get -y install postgresql-server-dev-all
+
+## Install Graphical Interface for PostgreSQL
+sudo apt-get -y install pgadmin3
 
 
 # # download and install docker 
