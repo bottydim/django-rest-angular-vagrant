@@ -48,6 +48,10 @@ sudo pip install --upgrade psycopg2
 ## Install Rest_framework PIP
 sudo pip install djangorestframework
 
+## Upgrade Rest_framework
+sudo pip3 install --upgrade djangorestframework
+
+## Installing dependencies for PostgreSQL
 sudo apt-get -y install libpq-dev python3-dev
 sudo apt-get -y install postgresql-server-dev-all
 
