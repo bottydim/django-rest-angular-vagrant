@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.users.models import User
+from stream.users.models import User
 
 
 class UserSerializer(serializers.ModelSerializer):

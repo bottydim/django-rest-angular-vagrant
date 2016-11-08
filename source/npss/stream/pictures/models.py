@@ -1,5 +1,5 @@
 # Create your models here.
-from television.contents.models import Content
+from stream.contents.models import Content
 
 
 class Picture(Content):

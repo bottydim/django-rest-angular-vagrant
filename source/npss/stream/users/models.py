@@ -1,6 +1,6 @@
 from django.db import models
 
-from television.roles.models import Role
+from stream.roles.models import Role
 
 
 class User(models.Model):

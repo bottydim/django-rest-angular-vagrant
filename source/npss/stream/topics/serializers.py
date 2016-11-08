@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.topics.models import Topic
+from stream.topics.models import Topic
 
 
 class TopicSerializer(serializers.ModelSerializer):

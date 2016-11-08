@@ -1,8 +1,8 @@
 from django.db import models
 
-from television.categories.models import Category
-from television.contents.models import Content
-from television.pictures.models import Picture
+from stream.categories.models import Category
+from stream.contents.models import Content
+from stream.pictures.models import Picture
 
 
 class Article(Content):

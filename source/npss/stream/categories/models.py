@@ -1,6 +1,6 @@
 from django.db import models
 
-from television.users.models import User
+from stream.users.models import User
 
 
 class Category(models.Model):

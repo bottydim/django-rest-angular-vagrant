@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.roles.models import Role
+from stream.roles.models import Role
 
 
 class RoleSerializer(serializers.ModelSerializer):

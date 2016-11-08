@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.users.models import User
-from television.users.serializers import UserSerializer
+from stream.users.models import User
+from stream.users.serializers import UserSerializer
 
 
 class UserList(generics.ListAPIView):

@@ -1,7 +1,7 @@
 from rest_framework import generics
-from television.pictures.models import Picture
+from stream.pictures.models import Picture
 
-from television.pictures.serializers import PictureSerializer
+from stream.pictures.serializers import PictureSerializer
 
 
 class PictureList(generics.ListAPIView):

@@ -1,7 +1,7 @@
 from django.db import models
 
-from television.comments.models import Comment
-from television.users.models import User
+from stream.comments.models import Comment
+from stream.users.models import User
 
 
 class Content(models.Model):

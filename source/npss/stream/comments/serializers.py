@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.comments.models import Comment
+from stream.comments.models import Comment
 
 
 class CommentSerializer(serializers.ModelSerializer):

@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.roles.models import Role
-from television.roles.serializers import RoleSerializer
+from stream.roles.models import Role
+from stream.roles.serializers import RoleSerializer
 
 
 class RoleList(generics.ListAPIView):

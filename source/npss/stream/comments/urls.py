@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from television.comments import views
+from stream.comments import views
 
 urlpatterns = [
     url(r'^list/', views.CommentList.as_view(), name='comments_list'),

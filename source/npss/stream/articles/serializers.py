@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.articles.models import Article
+from stream.articles.models import Article
 
 
 class ArticleSerializer(serializers.ModelSerializer):

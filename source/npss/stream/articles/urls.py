@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 
-from television.articles import views
+from stream.articles import views
 
 urlpatterns = [
     url(r'^list/', views.ArticleList.as_view(), name='articles_list'),

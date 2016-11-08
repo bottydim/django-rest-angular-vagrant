@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.categories.models import Category
+from stream.categories.models import Category
 
 
 class CategorySerializer(serializers.ModelSerializer):

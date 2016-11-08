@@ -1,7 +1,7 @@
 from django.db import models
-from television.categories.models import Category
+from stream.categories.models import Category
 
-from television.contents.models import Content
+from stream.contents.models import Content
 
 
 class Video(Content):

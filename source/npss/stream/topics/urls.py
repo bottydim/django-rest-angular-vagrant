@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 
-from television.topics import views
+from stream.topics import views
 
 urlpatterns = [
     url(r'^list/', views.TopicList.as_view(), name='topics_list'),

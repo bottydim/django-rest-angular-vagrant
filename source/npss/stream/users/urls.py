@@ -16,7 +16,7 @@ Including another URLconf
 from django.conf.urls import url
 from django.contrib import admin
 
-from television.users import views
+from stream.users import views
 
 urlpatterns = [
     url(r'^list/', views.UserList.as_view(), name='users_list'),

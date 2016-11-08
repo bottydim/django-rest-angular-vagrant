@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.comments.models import Comment
-from television.comments.serializers import CommentSerializer
+from stream.comments.models import Comment
+from stream.comments.serializers import CommentSerializer
 
 
 class CommentList(generics.ListAPIView):

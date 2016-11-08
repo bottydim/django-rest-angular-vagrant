@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from television.videos.models import Video
+from stream.videos.models import Video
 
 
 class VideoSerializer(serializers.ModelSerializer):

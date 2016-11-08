@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.videos.models import Video
-from television.videos.serializers import VideoSerializer
+from stream.videos.models import Video
+from stream.videos.serializers import VideoSerializer
 
 
 class VideoList(generics.ListAPIView):

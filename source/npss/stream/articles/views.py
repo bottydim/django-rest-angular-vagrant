@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.articles.models import Article
-from television.articles.serializers import ArticleSerializer
+from stream.articles.models import Article
+from stream.articles.serializers import ArticleSerializer
 
 
 class ArticleList(generics.ListAPIView):

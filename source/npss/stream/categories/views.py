@@ -1,7 +1,7 @@
 from rest_framework import generics
 
-from television.categories.models import Category
-from television.categories.serializers import CategorySerializer
+from stream.categories.models import Category
+from stream.categories.serializers import CategorySerializer
 
 
 class CategoryList(generics.ListAPIView):
